@@ -27,7 +27,19 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.benefit4': 'Bring therapist‑ready summaries',
     'hero.benefit4.desc': 'structured thought records: situation → thought → evidence → reframe',
     'hero.cta.primary': 'Start free on Telegram',
-    'hero.cta.secondary': 'Watch 90‑second demo',
+    'hero.cta.secondary': 'See how it works',
+    
+    // Demo
+    'demo.title': 'How AlexiTrack works',
+    'demo.subtitle': 'Four simple steps from blank to clear',
+    'demo.step1.title': 'Body scan check-in',
+    'demo.step1.desc': 'Start with sensations—jaw, chest, stomach. No thinking required.',
+    'demo.step2.title': 'Emotion ladders',
+    'demo.step2.desc': 'Name feelings with guided scales. Pick intensity, not perfection.',
+    'demo.step3.title': 'Weekly recall',
+    'demo.step3.desc': 'Your entries auto-build into highlights. Remember the week instantly.',
+    'demo.step4.title': 'Therapist-ready export',
+    'demo.step4.desc': 'One tap creates a structured summary for your next session.',
     
     // Before section
     'before.title': 'Do check‑ins leave a blank space?',
@@ -116,7 +128,19 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.benefit4': 'Приносьте готові підсумки для терапевта',
     'hero.benefit4.desc': 'структуровані записи думок: ситуація → думка → докази → переосмислення',
     'hero.cta.primary': 'Почати безкоштовно в Telegram',
-    'hero.cta.secondary': 'Подивитися 90‑секундне демо',
+    'hero.cta.secondary': 'Як це працює',
+    
+    // Demo
+    'demo.title': 'Як працює AlexiTrack',
+    'demo.subtitle': 'Чотири прості кроки від невизначеності до ясності',
+    'demo.step1.title': 'Перевірка відчуттів тіла',
+    'demo.step1.desc': 'Почніть з відчуттів—щелепа, груди, живіт. Без роздумів.',
+    'demo.step2.title': 'Сходи емоцій',
+    'demo.step2.desc': 'Назвіть почуття за допомогою шкал. Виберіть інтенсивність, а не ідеал.',
+    'demo.step3.title': 'Тижневий огляд',
+    'demo.step3.desc': 'Ваші записи автоматично створюють основні моменти. Згадайте тиждень миттєво.',
+    'demo.step4.title': 'Експорт для терапевта',
+    'demo.step4.desc': 'Один дотик створює структурований звіт для наступної сесії.',
     
     // Before section
     'before.title': 'Чи залишають перевірки порожній простір?',

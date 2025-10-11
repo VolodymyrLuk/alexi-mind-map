@@ -1,6 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
-import { Check, Play } from 'lucide-react';
+import { Check } from 'lucide-react';
 import heroImage from '@/assets/hero-image.jpg';
 
 export const Hero = () => {
@@ -10,7 +10,7 @@ export const Hero = () => {
     window.open('https://t.me/AlexiTrackBot?start=lp_home', '_blank');
   };
 
-  const handleDemoClick = () => {
+  const handleFeaturesClick = () => {
     document.getElementById('demo-section')?.scrollIntoView({ behavior: 'smooth' });
   };
 
@@ -51,8 +51,7 @@ export const Hero = () => {
               <Button size="lg" onClick={handleTelegramClick} className="text-base">
                 {t('hero.cta.primary')}
               </Button>
-              <Button size="lg" variant="outline" onClick={handleDemoClick} className="text-base">
-                <Play className="mr-2 h-5 w-5" />
+              <Button size="lg" variant="outline" onClick={handleFeaturesClick} className="text-base">
                 {t('hero.cta.secondary')}
               </Button>
             </div>
