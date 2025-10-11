@@ -28,26 +28,26 @@ export const ContactSection = () => {
 
     setIsSubmitting(true);
 
-    // Simulate email sending - in production, this would connect to Lovable Cloud
-    // or use a service like Resend via edge function
     try {
-      // Placeholder for email integration
-      console.log('Contact form submission:', formData);
-      
-      // Format email body
-      const emailBody = `
-Name: ${formData.name}
-Email: ${formData.email}
-Message: ${formData.message}
-      `;
+      // Submit to Formspree
+      const response = await fetch('https://formspree.io/f/mnnggwyw', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+        }),
+      });
 
-      // In production, this would send to vldimir.luk@gmail.com
-      // via Lovable Cloud edge function with Resend integration
-      
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      toast.success(t('contact.success'));
-      setFormData({ name: '', email: '', message: '', consent: false });
+      if (response.ok) {
+        toast.success(t('contact.success'));
+        setFormData({ name: '', email: '', message: '', consent: false });
+      } else {
+        toast.error('Failed to send message. Please try again.');
+      }
     } catch (error) {
       toast.error('Failed to send message. Please try again.');
     } finally {
@@ -56,7 +56,7 @@ Message: ${formData.message}
   };
 
   return (
-    <section id="contact" className="py-16 md:py-24 bg-gradient-to-b from-muted/30 to-background">
+    <section className="py-16 md:py-24 bg-gradient-to-b from-muted/30 to-background" id="contact">
       <div className="container px-4 md:px-6">
         <div className="max-w-2xl mx-auto space-y-8">
           <div className="text-center space-y-4">
