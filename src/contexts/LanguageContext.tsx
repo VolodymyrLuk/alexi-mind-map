@@ -16,8 +16,8 @@ const translations: Record<Language, Record<string, string>> = {
     'header.cta': 'Start free on Telegram',
     
     // Hero
-    'hero.headline': 'When feelings are hard to name, start with the body.',
-    'hero.subheadline': 'A guided CBT diary that replaces vague "how are you?" with structured choices—sensations, emotion ladders, context tags, and weekly recall aids.',
+    'hero.headline': 'Understand what you feel—clearly, calmly, and with structure.',
+    'hero.subheadline': 'A guided CBT diary that replaces vague "how are you?" with structured choices—emotion ladders, context tags, and weekly recall aids.',
     'hero.benefit1': 'Stop going blank with body‑first prompts',
     'hero.benefit1.desc': 'body scan and sensation selector',
     'hero.benefit2': 'Name emotions with step‑by‑step ladders',
@@ -32,14 +32,19 @@ const translations: Record<Language, Record<string, string>> = {
     // Demo
     'demo.title': 'How AlexiTrack works',
     'demo.subtitle': 'Four simple steps from blank to clear',
-    'demo.step1.title': 'Body scan check-in',
-    'demo.step1.desc': 'Start with sensations—jaw, chest, stomach. No thinking required.',
+    'demo.step1.title': 'Guided check-in',
+    'demo.step1.desc': 'A two-minute guided check-in that replaces blank boxes with structured choices.',
     'demo.step2.title': 'Emotion ladders',
-    'demo.step2.desc': 'Name feelings with guided scales. Pick intensity, not perfection.',
+    'demo.step2.desc': 'Name emotions with step-by-step ladders and intensity for clearer self-awareness.',
     'demo.step3.title': 'Weekly recall',
-    'demo.step3.desc': 'Your entries auto-build into highlights. Remember the week instantly.',
+    'demo.step3.desc': 'Weekly recall turns daily snapshots into highlights you can review in minutes.',
     'demo.step4.title': 'Therapist-ready export',
-    'demo.step4.desc': 'One tap creates a structured summary for your next session.',
+    'demo.step4.desc': 'Export therapist-ready summaries so sessions focus on progress, not guesswork.',
+    'demo.pause': 'Pause',
+    'demo.play': 'Play',
+    'demo.previous': 'Previous slide',
+    'demo.next': 'Next slide',
+    'demo.slideLabel': 'Slide {{current}} of {{total}}',
     
     // Before section
     'before.title': 'Do check‑ins leave a blank space?',
@@ -117,8 +122,8 @@ const translations: Record<Language, Record<string, string>> = {
     'header.cta': 'Почати безкоштовно в Telegram',
     
     // Hero
-    'hero.headline': 'Коли важко назвати почуття, почніть з тіла.',
-    'hero.subheadline': 'Керований щоденник КПТ, який замінює невиразне "як справи?" структурованими виборами—відчуттями, сходами емоцій, міткам контексту та тижневими підказками пам\'яті.',
+    'hero.headline': 'Зрозумійте, що ви відчуваєте—чітко, спокійно та структуровано.',
+    'hero.subheadline': 'Керований щоденник КПТ, який замінює невиразне "як справи?" структурованими виборами—сходами емоцій, мітками контексту та тижневим оглядом.',
     'hero.benefit1': 'Припиніть залишатися порожніми з підказками від тіла',
     'hero.benefit1.desc': 'сканування тіла та вибір відчуттів',
     'hero.benefit2': 'Називайте емоції покроковими сходами',
@@ -133,14 +138,19 @@ const translations: Record<Language, Record<string, string>> = {
     // Demo
     'demo.title': 'Як працює AlexiTrack',
     'demo.subtitle': 'Чотири прості кроки від невизначеності до ясності',
-    'demo.step1.title': 'Перевірка відчуттів тіла',
-    'demo.step1.desc': 'Почніть з відчуттів—щелепа, груди, живіт. Без роздумів.',
+    'demo.step1.title': 'Керована перевірка',
+    'demo.step1.desc': 'Двохвилинна керована перевірка, яка замінює порожні поля структурованими виборами.',
     'demo.step2.title': 'Сходи емоцій',
-    'demo.step2.desc': 'Назвіть почуття за допомогою шкал. Виберіть інтенсивність, а не ідеал.',
+    'demo.step2.desc': 'Називайте емоції за допомогою покрокових сходів та інтенсивності для чіткішого самоусвідомлення.',
     'demo.step3.title': 'Тижневий огляд',
-    'demo.step3.desc': 'Ваші записи автоматично створюють основні моменти. Згадайте тиждень миттєво.',
+    'demo.step3.desc': 'Тижневий огляд перетворює щоденні знімки на основні моменти, які ви можете переглянути за лічені хвилини.',
     'demo.step4.title': 'Експорт для терапевта',
-    'demo.step4.desc': 'Один дотик створює структурований звіт для наступної сесії.',
+    'demo.step4.desc': 'Експортуйте готові підсумки для терапевта, щоб сесії зосереджувалися на прогресі, а не на здогадках.',
+    'demo.pause': 'Пауза',
+    'demo.play': 'Грати',
+    'demo.previous': 'Попередній слайд',
+    'demo.next': 'Наступний слайд',
+    'demo.slideLabel': 'Слайд {{current}} з {{total}}',
     
     // Before section
     'before.title': 'Чи залишають перевірки порожній простір?',
