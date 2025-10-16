@@ -55,7 +55,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     // After section
     'after.title': 'Imagine clarity in two minutes a day.',
-    'after.outcome1': 'Start with the body, map sensations to likely feelings, and select needs with confidence.',
+    'after.outcome1': 'Map sensations to likely feelings, and select needs with confidence.',
     'after.outcome2': 'See the week at a glance with recall highlights that turn into a session agenda.',
     'after.outcome3': 'Show up with therapist‑ready summaries so sessions focus on progress, not endless guessing.',
     'after.paradigm': 'AlexiTrack replaces vague prompts with guided ladders, body cues, and CBT thought records—less typing, more clarity.',
@@ -64,12 +64,12 @@ const translations: Record<Language, Record<string, string>> = {
     'bridge.title': 'Introducing AlexiTrack Journal',
     'bridge.description': 'AlexiTrack Journal is a Telegram‑first CBT diary built for people who feel "blank," using scaffolded prompts, body‑based cues, and weekly recall to turn "I don\'t know" into usable therapy inputs.',
     'bridge.step1.title': 'Daily 2‑minute check‑in',
-    'bridge.step1.desc': 'context, body scan, emotion ladder, optional note',
+    'bridge.step1.desc': 'context, emotion ladder, optional note',
     'bridge.step2.title': 'Auto‑build weekly recall',
     'bridge.step2.desc': 'highlights from situations, thoughts, and reframes',
     'bridge.step3.title': 'Export therapist‑ready summary',
     'bridge.step3.desc': 'in one tap',
-    'bridge.founder': 'This is for people who don\'t fit unstructured journals; by starting with the body and offering choices instead of blank boxes, clarity becomes routine.',
+    'bridge.founder': 'This is for people who don\'t fit unstructured journals; by offering choices instead of blank boxes, clarity becomes routine.',
     'bridge.cta': 'Start free on Telegram—then bring clarity to therapy this week.',
     'bridge.urgency': 'Early access: premium exports at launch pricing.',
     
@@ -119,7 +119,7 @@ const translations: Record<Language, Record<string, string>> = {
   },
   uk: {
     // Header
-    'header.cta': 'Почати безкоштовно в Telegram',
+    'header.cta': 'Почати в Telegram',
     
     // Hero
     'hero.headline': 'Зрозумійте, що ви відчуваєте—чітко, спокійно та структуровано.',
@@ -161,7 +161,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     // After section
     'after.title': 'Уявіть ясність за дві хвилини на день.',
-    'after.outcome1': 'Почніть з тіла, зіставте відчуття з ймовірними почуттями та впевнено виберіть потреби.',
+    'after.outcome1': 'Зіставте відчуття з ймовірними почуттями та впевнено виберіть потреби.',
     'after.outcome2': 'Бачте тиждень з одного погляду з основними моментами пам\'яті, які перетворюються на порядок денний сесії.',
     'after.outcome3': 'З\'являйтеся з готовими підсумками для терапевта, щоб сесії зосереджувалися на прогресі, а не на нескінченних здогадках.',
     'after.paradigm': 'AlexiTrack замінює невиразні підказки керованими сходами, тілесними підказками та записами думок КПТ—менше друкування, більше ясності.',

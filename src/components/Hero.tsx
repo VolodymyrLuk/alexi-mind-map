@@ -15,7 +15,6 @@ export const Hero = () => {
   };
 
   const benefits = [
-    { key: 'hero.benefit1', descKey: 'hero.benefit1.desc' },
     { key: 'hero.benefit2', descKey: 'hero.benefit2.desc' },
     { key: 'hero.benefit3', descKey: 'hero.benefit3.desc' },
     { key: 'hero.benefit4', descKey: 'hero.benefit4.desc' },
